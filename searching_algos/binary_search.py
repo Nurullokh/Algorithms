@@ -1,6 +1,6 @@
 # Binary Search Algorithm
 """
-Explanation
+--- Explanation
 This algorithm is used to find the target
 when an array is sorted. When we are looping the
 array, every time we check the middle element of the 
@@ -8,7 +8,7 @@ arrar, and if it is not equal to the target, we remove
 the half of the array.
 If the target cannot be finded, then return 'Not Found'
 
-Looping manually
+--- Looping manually
 ls = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], target = 1
 1) mid_el = 5 -> 5 != 1 -> ls = [0, 1, 2, 3, 4], we removed the half of the array
 2) mid_el = 2 -> 2 != 1 -> ls = [0, 1], we removed the half of the array
